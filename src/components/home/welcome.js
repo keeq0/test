@@ -42,7 +42,7 @@ function Welcome() {
                     </div>
                     
                     <div className='right-side'>
-                        <img className="welcome__photo" alt="photo" src='../../images/welcome2.jpg' />
+                        <img className="welcome__photo" alt="abc" src='../../images/welcome2.jpg' />
                     </div>
                 </div>
                 <ul className='find'>
