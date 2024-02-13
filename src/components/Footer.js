@@ -12,25 +12,25 @@ const Footer = () => {
             <div className='footer__container'>
                 <ul className='footer__menu'>
                     <li className='footer__menu--column'>
-                        <a href="#" className='footer__menu--link'>ЧАСТЫЕ ВОПРОСЫ</a>
-                        <a href="#" className='footer__menu--link'>СЛУЖБА ПОДДЕРЖКИ</a>
-                        <a href="#" className='footer__menu--link'>КОНТАКТЫ</a>
+                        <Link href="#" className='footer__menu--link'>ЧАСТЫЕ ВОПРОСЫ</Link>
+                        <Link href="#" className='footer__menu--link'>СЛУЖБА ПОДДЕРЖКИ</Link>
+                        <Link href="#" className='footer__menu--link'>КОНТАКТЫ</Link>
                     </li>
                     <li className='footer__menu--column'>
-                        <a href="#" className='footer__menu--link'>ГЛАВНАЯ СТРАНИЦА</a>
-                        <a href="#" className='footer__menu--link'>НАЙТИ РЕПЕТИТОРА</a>
-                        <a href="#" className='footer__menu--link'>НАЙТИ УЧЕНИКА</a>
+                        <Link to="/Home" className='footer__menu--link'>ГЛАВНАЯ СТРАНИЦА</Link>
+                        <Link href="Findtutor" className='footer__menu--link'>НАЙТИ РЕПЕТИТОРА</Link>
+                        <Link href="Findstudent" className='footer__menu--link'>НАЙТИ УЧЕНИКА</Link>
                     </li>
                     <li className='footer__menu--column'>
-                            <Link to="Profile" className='footer__menu--link'>ЛИЧНЫЙ КАБИНЕТ</Link>
-                        <a href="#" className='footer__menu--link'>ОТЗЫВЫ</a>
+                            <Link to="/profile" className='footer__menu--link'>ЛИЧНЫЙ КАБИНЕТ</Link>
+                        <Link href="Reviews" className='footer__menu--link'>ОТЗЫВЫ</Link>
                     </li>
                     <li className='footer__menu--column'>
-                        <a className='footer__logo' href="index.html">
+                        <Link className='footer__logo' href="index.html">
                             <img className='footer__logo--icon' src={require('../icons/logo.png')} />
                             <p className='footer__logo--title'>Навигатор обучения</p>
-                        </a>
-                        <a href="#" className='footer__rules'>© keeq0.ru / Правила сервиса</a>
+                        </Link>
+                        <Link href="#" className='footer__rules'>© keeq0.ru / Правила сервиса</Link>
                     </li>
                 </ul>
             </div>

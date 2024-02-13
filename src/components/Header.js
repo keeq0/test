@@ -5,6 +5,8 @@ import '../css/header.css';
 import '../css/normalize.css';
 import '../css/reset.css';
 
+import {Link} from 'react-router-dom';
+
 import Menu from "./Menu.js";
 
 const Header = () => {
@@ -15,23 +17,23 @@ const Header = () => {
       <div className='header__container'>
         <ul className='header__menu'>
           <li className='header__menu--item logo'>
-            <a className='link logo' href="/">
+            <Link className='link logo' to="/">
               <img className='logo__icon' src={require('../icons/logo.png')} />
               <p className='logo__title'>Навигатор обучения</p>
-            </a>
+            </Link>
           </li>
           <li className='header__menu--item links'>
-            <a href="findtutor" className='link find-tutor'>НАЙТИ <span className='orange'>РЕПЕТИТОРА</span><div className="link__underline"></div></a>
-            <a href="findstudent" className='link find-student'>НАЙТИ <span className='orange'>УЧЕНИКА</span><div className="link__underline"></div></a>
+            <Link href="findtutor" className='link find-tutor'>НАЙТИ <span className='orange'>РЕПЕТИТОРА</span><div className="link__underline"></div></Link>
+            <Link href="findstudent" className='link find-student'>НАЙТИ <span className='orange'>УЧЕНИКА</span><div className="link__underline"></div></Link>
             
           </li>
           <li className='header__menu--item buttons'>
-            <a href="registration.html" className='link button--registration'>
+            <Link href="registration.html" className='link button--registration'>
               РЕГИСТРАЦИЯ
-            </a>
-            <a href="login.html" className='link button--login'>
+            </Link>
+            <Link href="login.html" className='link button--login'>
               ВХОД
-            </a>
+            </Link>
           </li>
           <li className='burger-menu' onClick={() => setMenuActive(!menuActive)}>
             <div class="line"></div>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './interaction.css';
+import {Link} from 'react-router-dom';
 
 const Interaction = () => {
     return (
@@ -10,14 +11,14 @@ const Interaction = () => {
                 <div className='interaction__container--left'>
                     <div className='interaction__balance'>
                         <p className='interaction__balance--info'>БАЛАНС: <span className='orange'>30 000 ₽</span></p>
-                        <a href="deposit" className='interaction__deposit'>ПОПОЛНИТЬ</a>
-                        <a href="withdraw" className='interaction__withdraw'>ВЫВЕСТИ</a>
-                        <a href="history" className='interaction__link orange'>ИСТОРИЯ ПЛАТЕЖЕЙ</a>
-                        <a href="support" className='interaction__link black'>ОБРАТИТЬСЯ В ПОДДЕРЖКУ</a>
+                        <Link href="deposit" className='interaction__deposit'>ПОПОЛНИТЬ</Link>
+                        <Link href="withdraw" className='interaction__withdraw'>ВЫВЕСТИ</Link>
+                        <Link href="history" className='interaction__link orange'>ИСТОРИЯ ПЛАТЕЖЕЙ</Link>
+                        <Link href="support" className='interaction__link black'>ОБРАТИТЬСЯ В ПОДДЕРЖКУ</Link>
                     </div>
                     <div className='interaction__buttons'>
-                        <a href="#" className='interaction__buttons--btn'>СОЗДАТЬ<span className='orange'>ЗАНЯТИЕ</span></a>
-                        <a href="#" className='interaction__buttons--btn'>СОЗДАТЬ<span className='orange'>ЗАЯВКУ</span></a>
+                        <Link href="#" className='interaction__buttons--btn'>СОЗДАТЬ<span className='orange'>ЗАНЯТИЕ</span></Link>
+                        <Link href="#" className='interaction__buttons--btn'>СОЗДАТЬ<span className='orange'>ЗАЯВКУ</span></Link>
                     </div>
                 </div>
                 <div className='interaction__container--right'>
