@@ -18,7 +18,7 @@ const Header = () => {
         <ul className='header__menu'>
           <li className='header__menu--item logo'>
             <Link className='link logo' to="/">
-              <img className='logo__icon' src='../icons/logo.png' />
+              <img className='logo__icon' alt="photo" src='../icons/logo.png' />
               <p className='logo__title'>Навигатор обучения</p>
             </Link>
           </li>
