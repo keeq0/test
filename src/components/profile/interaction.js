@@ -40,7 +40,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>
@@ -51,7 +51,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>
@@ -62,7 +62,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>
@@ -73,7 +73,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>
@@ -84,7 +84,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>
@@ -95,7 +95,7 @@ const Interaction = () => {
                             <p className='task__cost'>7 000 ₽</p>
                             <p className='task__date'>13.02.2024 - 20.02.2024</p>
                             <div className='task__user'>
-                                <img className="task__photo" alt="photo" src='../../images/user.jpg' />
+                                <img className="task__photo" alt="abc" src='../../images/user.jpg' />
                                 <p className='task__username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                             </div>
                             <button className='task__button'>Завершить</button>

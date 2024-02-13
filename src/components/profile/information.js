@@ -18,7 +18,7 @@ const Information = () => {
 
                     </div>
                     <div className='information__profile'>
-                        <img className="information__profile--photo" alt="photo" src='../../images/user.jpg' />
+                        <img className="information__profile--photo" alt="abc" src='../../images/user.jpg' />
                         <p className='information__profile--username'><span className='orange'>СЕРГЕЙ</span> МЯКОТНЫХ</p>
                         <p className='information__profile--age'>ВОЗРАСТ: 19</p>
                     </div>
