@@ -27,7 +27,7 @@ const Footer = () => {
                     </li>
                     <li className='footer__menu--column'>
                         <Link className='footer__logo' href="index.html">
-                            <img className='footer__logo--icon' alt="abc" src='../icons/logo.png' />
+                            <img className='footer__logo--icon' alt="abc" src={require=('../icons/logo.png')} />
                             <p className='footer__logo--title'>Навигатор обучения</p>
                         </Link>
                         <Link href="#" className='footer__rules'>© keeq0.ru / Правила сервиса</Link>
